@@ -1,0 +1,58 @@
+.Welcome {
+    background-image: url("/Users/aditya/Desktop/education /my-app/public/images/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    color: #fff;
+}
+.container{
+    width: 50%;
+    margin: 0px 100px;
+}
+h3{
+    font-size: 1.17em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.margin{
+    margin: 30px 0px;
+    font-size: 45px;
+}
+span{
+    font-size: 18px;
+    line-height: 30px;
+}
+.button1{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width:58%;
+
+}
+.prop{
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    border:none;
+    display: flex;
+    cursor: pointer;
+}
+
+p{
+    margin-right: 15px;
+    font-size: 15px;
+}
+.get{
+    color: #fff;
+    background-color: #1eb2a6;
+}
+.view{
+    color: #1eb2a6;
+}
+

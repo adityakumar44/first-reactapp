@@ -1,0 +1,44 @@
+.newletter{
+    background-color: #1eb2a6;
+    color: #ffff;
+    padding: 50px 0px;
+}
+.left-news h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.left-news p{
+    font-size: 18px;
+}
+.container1{
+    width: 85%;
+    margin: auto;
+}
+.right-news{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.right-news input{
+    padding: 17px;
+    width: 100%;
+    border: none;
+}
+.right-news i{
+    color: #1eb2a6;
+    background-color: #ffff;
+    padding: 17px;
+}
+
+.bottom{
+    text-align: center;
+    color: grey;
+    background-color: #e9e9e9;
+    padding: 50px 0px;
+    font-size: 15px;
+}
+
+.bottom i {
+    color: #1eb2a6;
+}
