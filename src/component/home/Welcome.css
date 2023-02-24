@@ -1,5 +1,5 @@
 .Welcome {
-    background-image: url("/Users/aditya/Desktop/education /my-app/public/images/bg.webp");
+    background-image: url("../../../public/images/bg.webp");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
@@ -54,5 +54,31 @@ p{
 }
 .view{
     color: #1eb2a6;
+}
+.grid3{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.item-blog{
+    
+}
+.blog-img{
+    width: 100%;
+}
+.blog-comments ,.item-blog i{
+    color: #1eb2a6;
+    /* margin-right: 10px; */
+}
+.blog-content{
+    padding: 40px 30px;
+}
+.blog-name, .blog-date{
+    color: grey;
+    font-weight: bold;
+}
+.blog-name, .blog-date, .blog-comments{
+    font-size: 14px;
+
 }
 

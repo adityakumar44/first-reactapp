@@ -9,8 +9,8 @@ function Price(){
         </div>
         
         <section className="price">
-            <div className="flexB P-container">
-                <div className="item">
+            <div className=" P-container grid4">
+                <div className="item shadow">
                     <h4>Basic Plan</h4>
                     <h1>
                         <span>$</span>
@@ -19,7 +19,7 @@ function Price(){
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <button className="outline-btn">Get Started</button>
                 </div>
-                <div className="item">
+                <div className="item shadow">
                     <h4>BEGINNER PLAN</h4>
                     <h1>
                         <span>$</span>
@@ -28,7 +28,7 @@ function Price(){
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <button className="outline-btn">Get Started</button>
                 </div>
-                <div className="item">
+                <div className="item shadow">
                     <h4>PREMIUM PLAN</h4>
                     <h1>
                         <span>$</span>
@@ -37,7 +37,7 @@ function Price(){
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <button className="outline-btn">Get Started</button>
                 </div>
-                <div className="item">
+                <div className="item shadow">
                     <h4>ULTIMATE PLAN</h4>
                     <h1>
                         <span>$</span>
