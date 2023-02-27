@@ -7,7 +7,7 @@
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     padding-top: 20%;
     color: #fff;
 }
@@ -60,15 +60,14 @@ p{
     grid-gap: 30px;
     grid-template-columns: repeat(3,1fr);
 }
-.item-blog{
-    
-}
+
 .blog-img{
     width: 100%;
 }
 .blog-comments ,.item-blog i{
     color: #1eb2a6;
-    /* margin-right: 10px; */
+    margin-right: 7px;
+    font-weight: bold !important;;
 }
 .blog-content{
     padding: 40px 30px;
@@ -81,4 +80,107 @@ p{
     font-size: 14px;
 
 }
+.blog-content > h2{
+    font-size: 22px;
+    margin: 20px 0px;
+    text-align: left;
+    transition: .5s;
+}
+.blog-content > h2:hover{
+    color: #1eb2a6;
+    cursor: pointer;
+}
+.blog-content >p{
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+    text-align: left;
+    font-family: sans-serif;
+}
+.Htest-text{
+    margin: 25px;
+    text-align: left;
+}
+.Htest-text > h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.Htest-img > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 
+}
+.Htest-text > span{
+    font-size: 16px !important;
+    color: #1eb2a6 !important;
+    line-height: 20px;
+}
+.icon2{
+    background-color: #1eb2a6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+    transition: .5s;
+    
+}
+.change  .Htest-img:hover i{
+    background-color: #fff;
+    color: #1eb2a6;
+}
+.Htest-p{
+    text-align: left;
+    margin: 0px !important;
+    font-weight: 500 !important;
+}
+
+/* Honline */
+.online{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.grid6{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+}
+.box{
+    padding:30px 20px;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.online img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box h1{
+    font-size: 20px !important;
+    margin: 20px 0px !important;
+}
+.online span{
+    background-color: #f8f8f8;
+    color: #1eb2a6;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500 !important;
+}
+.box:hover span{
+    background-color: #fff;
+}
+.box:hover {
+    background-color: #1eb2a6;
+    border-radius: 10px;
+}
+/* .show{
+    opacity: 0;
+    position: relative;;
+    bottom: 160px;
+} */

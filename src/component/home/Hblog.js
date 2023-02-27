@@ -21,7 +21,7 @@ function HBlog() {
                     <i className="fa fa-comments"></i>3 COMMENTS
                     </span>
                 </p>
-                <h1>Build your Dream Software & Engineering Career</h1>
+                <h2>Build your Dream Software & Engineering Career</h2>
                 <p>
                     A small river named Duden flows by their place and supplies it
                     with the necessary regelialia.
@@ -30,8 +30,8 @@ function HBlog() {
             </div>
             <div className="item-blog shadow">
                 <img  alt="name" className="blog-img" src="../images/blog/b2.webp" />
-                    <div className="blog-content">
-                <p>
+                <div className="blog-content">
+                <p className="flexB">
                     <span className="blog-name">
                     <i className="fa fa-user"></i>ADMIN
                     </span>
@@ -39,10 +39,10 @@ function HBlog() {
                     <i className="fa fa-calendar-alt"></i>JAN. 18, 2021
                     </span>
                     <span className="blog-comments">
-                    <i className="fa fa-comments"></i>3 COMMENTS
+                    <i className="fa fa-comments"></i>5 COMMENTS
                     </span>
                 </p>
-                <h1>Build your Dream Software & Engineering Career</h1>
+                <h2>Build your Dream Software & Engineering Career</h2>
                 <p>
                     A small river named Duden flows by their place and supplies it
                     with the necessary regelialia.
@@ -51,8 +51,8 @@ function HBlog() {
             </div>
             <div className="item-blog shadow">
                 <img alt="name" className="blog-img" src="../images/blog/b3.webp" />
-                    <div className="blog-content">
-                <p>
+                <div className="blog-content">
+                <p className="flexB">
                     <span className="blog-name">
                     <i className="fa fa-user"></i>ADMIN
                     </span>
@@ -60,10 +60,10 @@ function HBlog() {
                     <i className="fa fa-calendar-alt"></i>JAN. 18, 2021
                     </span>
                     <span className="blog-comments">
-                    <i className="fa fa-comments"></i>3 COMMENTS
+                    <i className="fa fa-comments"></i>10 COMMENTS
                     </span>
                 </p>
-                <h1>Build your Dream Software & Engineering Career</h1>
+                <h2>Build your Dream Software & Engineering Career</h2>
                 <p>
                     A small river named Duden flows by their place and supplies it
                     with the necessary regelialia.

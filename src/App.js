@@ -1,22 +1,20 @@
 
 import './App.css';
-// import Tophead from './component/common/Tophead';
-// import Bottom from './component/footer/bottom';
+import '././component/Pricing/pricing.css';
+import Tophead from './component/common/Tophead';
 import Footer from './component/footer/footer';
-import HBlog from './component/home/Hblog';
-// import Home from './component/home/Home';
-import Hprice from './component/Pricing/Hprice';
+import './component/home/Welcome.css';
+import Home from './component/home/Home';
+import Htest from './component/home/Htest';
 
 
 function App() {
   return (
     <>
-    {/* <Tophead/> */}
-      {/* <Home/>     */}
-      {/* <Bottom/> */}
-      {/* <Footer/> */}
-      {/* <Hprice/> */}
-      <HBlog/>
+      <Tophead/>
+      <Htest/>
+      <Home/>
+      <Footer/>/
     </>
   );
 }
